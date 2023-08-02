@@ -1,0 +1,16 @@
+.list {
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-bottom: 0;
+    padding-left: 0
+}
+.item {
+    padding: 0.5rem 1rem;
+}
+.item.active {
+    background-color: #495057;
+    color: #dee2e6;
+}
