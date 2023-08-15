@@ -1,0 +1,18 @@
+.label {
+    align-items: center;
+    display: flex;
+    justify-content: center
+}
+.input {
+    background-color: #e9ecef;
+    border: none;
+    color: #212529;
+    height: 50px;
+    margin: 5px;
+    padding: 10px;
+    text-align: left;
+    width: 190px;
+}
+.text {
+    text-align: center;
+}
