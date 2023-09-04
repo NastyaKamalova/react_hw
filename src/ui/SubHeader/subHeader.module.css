@@ -1,11 +1,11 @@
-.title{
+.title, .titleDark{
 	font-size: 30px;
 	padding: 50px 0 20px;
 	text-align: center;
 	display: block;
-	margin-block-start: 0.83em;
-	margin-block-end: 0.83em;
-	margin-inline-start: 0px;
-	margin-inline-end: 0px;
+	margin: 0;
 	font-weight: bold;
+}
+.titleDark{
+	color: #dee2e6;
 }

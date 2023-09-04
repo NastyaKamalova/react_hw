@@ -1,0 +1,18 @@
+.div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 100px;
+}
+.darkWrapper {
+	background: #495057;
+}
+.lightWrapper {
+	background: #ffffff;
+}
+.darkInput {
+    color: #fff;
+}
+.lightInput {
+    color:  #495057;
+}
