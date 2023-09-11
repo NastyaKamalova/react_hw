@@ -2,7 +2,8 @@ import React from "react";
 import style from "./content.module.css";
 import Intro from "../../Intro";
 import State from "../../State";
-import Reducer from "../../Reducer"
+import Reducer from "../../Reducer";
+import Refs from "../../Refs";
 
 function Content({tab}) {
   return (
@@ -12,6 +13,7 @@ function Content({tab}) {
 					{	tab.id === 0 && <Intro/> }
           {	tab.id === 1 && <State/> }
           {	tab.id === 2 && <Reducer/> }
+          { tab.id === 3 && <Refs/>}
 				</section>
     </main>
   );

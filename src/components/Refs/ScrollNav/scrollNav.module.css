@@ -1,0 +1,24 @@
+.div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.button {
+    border: none;
+    margin: 2px 5px;
+    padding: 5px;
+    width: 290px;
+    height: 30px;
+}
+.buttonNav {
+    border: none;
+    margin: 2px 5px;
+    padding: 5px;
+    width: 86px;
+    height: 30px;
+    display: flex;
+}
+.h3 {
+    text-align: center;
+}
